@@ -1,7 +1,8 @@
 
 # Go Programming Language Book
 
+This repo is the result of my working through the examples presented in [The Go Programming Language book](https://www.gopl.io/)
+
 # Overview 
 
-# Getting Started 
-
+Some individual examples may contain READMEs explaining how to run them.
