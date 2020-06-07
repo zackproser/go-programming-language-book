@@ -7,13 +7,13 @@ import (
 const IssuesURL = "https://api.github.com/search/issues"
 
 type IssuesSearchResult struct {
-	TotalCount int `json:total_count"`
+	TotalCount int `json:"total_count"`
 	Items      []*Issue
 }
 
 type Issue struct {
 	Number    int
-	HTMLURL   string `json:"htm_url"`
+	HTMLURL   string `json:"html_url"`
 	Title     string
 	State     string
 	User      *User
@@ -24,5 +24,5 @@ type Issue struct {
 
 type User struct {
 	Login   string
-	HTMLUrl string `json:"html_url"`
+	HTMLURL string `json:"html_url"`
 }
